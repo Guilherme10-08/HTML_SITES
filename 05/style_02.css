@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body
+{
+    font-size: 1.5em;
+    background-image:linear-gradient(to right,#a5923f,#907734,#917835);
+    background-attachment:fixed;
+  
+}
+header
+{
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    /*background-color: gray;*/
+   background-image: linear-gradient(to right, rgb(183, 183, 21), rgb(139, 139, 17));
+    padding: 10px;
+   
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 0px;
+}
+nav
+{
+    padding: 10px;
+    background: url(css/zap01.webp);
+    background-position: right top;
+    background-repeat: no-repeat;
+   
+  
+}
+main
+{
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+
+    background-image: linear-gradient(to right, rgb(183, 183, 21), rgb(139, 139, 17));
+}
+ h1
+{
+    text-align: center;
+    /*color:rgba(255, 255, 255, 0.647);
+    background-color:rgb(61, 59, 59);*/
+    background-color: rgb(216, 89, 110);
+    color: rgb(192, 192, 25);
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+    font-size: 2.2em;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px  rgba(25, 25, 24, 0.264);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    margin: -10px;
+}
+p
+{
+    text-align: center;
+    color: rgba(8, 8, 225, 0.998);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.31);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul
+{
+    list-style-position: inside;           
+    /*background-color: rgba(137, 132, 132, 0.761);*/
+    background-image: linear-gradient(to left,rgba(184, 184, 98, 0.724),rgba(149, 149, 90, 0.724));
+    padding: 25px;
+    margin-top: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(35, 35, 162, 0.998);
+    border-radius: 5px;
+
+}
+a
+{
+    text-decoration: none;
+    /*color: white;*/
+    color: rgba(35, 35, 162, 0.998);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.176);
+   
+   
+}
+a:hover
+{
+    /*background-color: rgb(93, 89, 89);*/
+    background-color: rgba(36, 36, 98, 0.438);
+    border-radius: 5px;
+}
+#videos
+{
+   
+    margin-bottom: 40px;
+    margin-left: 10px;
+   
+}
+video
+{
+               
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    left: 0px;
+   
+   
+}
+
+footer
+{
+    padding: 5px;
+    max-width: 1010px;
+    min-width: 320px;
+    background-image: linear-gradient(to bottom, rgb(23, 23, 134), rgb(8, 8, 93));
+    margin: auto;
+}
+footer > p
+{
+    color: rgb(180, 180, 20);
+    font-size: 0.9em;
+}
+.link-rodape > a
+{
+    text-decoration: none;
+    color: rgb(180, 180, 20);
+}
+.link-rodape > a:hover
+{
+    background-color:rgba(147, 147, 22, 0.247);
+    text-decoration: underline;
+}
+section
+{
+    max-width: 500px;
+    min-width: 320px;
+    height: 180px;
+
+    display: inline-block;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgba(159, 159, 27, 0.83), rgba(161, 161, 27, 0.797));
+
+    margin-left: 10px;
+    margin-bottom: 40px;
+
+    border-radius: 5px;
+}

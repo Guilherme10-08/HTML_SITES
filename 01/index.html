@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icones/favicon.ico" type="image/x-icon">
+    <title>Meu Site</title>
+
+    <style>
+        p
+        {
+            font-size:larger;           
+        }
+
+        li
+        {
+            font-size: larger;
+        }
+        body
+        {
+            background-color:aqua;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <h1>A importância da Progamação na Vida do Ser Humano</h1>
+    <hr>
+    
+    <p>A<strong> Programação</strong> é um dos principais pilares da tecnologia, é um recurso bastante necessário de extrema importância na vida das pessoas,pois graças a ela hoje em dia as pessoas conseguem se comunicar,vender produtos e criar empresas virtuais tudo isso e muito mais. Eu tenho a minha jornada diária focada 100% no desenvolvimento estou amando bastante essa minha nova fase como desenvolvedor de sistemas e não só a ideia é sempre fazer melhor que o ontem crescer todos os dias de maneira significativa e ativa. </p>
+    
+    <img src="imagens/csharp_full_500.png" alt="Logo-Programação">
+
+    <ul>
+        <h2>
+            <li><strong>Liguagens de Programação</strong></li>
+        </h2>
+        <ol>
+            <li>C#</li>
+            <li>Java Script</li>
+            <li>Phyton</li>
+            <li>C++</li>
+            <li>C</li>
+        </ol>
+    </ul>
+
+    <p><strong>C#</strong> é uma linguagem de programação de alto nível, compilada e fortemente tipada ou seja os dados que armazenam as informações têm um tipo específico.É uma linguagem dedenvolvida e mantida pela Microsoft , o compiladordo do C# é o <abbr title="Commum Linguage Runtime">CLR </abbr></p>
+
+    <ins>
+        <p><strong>Exemplo de um código escrito em<abbr title="Linguagem de Programação"> C#</abbr>:</strong></p>
+    </ins>
+
+    <strong>
+        <pre>
+            <code style="font-size: larger;">
+                <p>           
+    using Microsoft.AspnetCore.Mvc;
+    namespace Web_Apis
+    {
+        public class Minha_Api : CotrollerBase
+        {
+            [httpPost]
+            [Route("")]
+            public async Task<ActionResult<Vendedor>> Post_Vendedor([FromBody] Vendedor vendedor)
+            {
+                if(!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+                else
+                {
+                    return Ok(vendedor);
+                }
+            }
+        }
+    }        
+                </p>
+            </code>
+        </pre>
+        
+    </strong>
+
+    <ul>
+
+        <h2>
+            <li><abbr title="Sistema de Gerenciamento de Banco de Dados">SGBD</abbr> Relacionais</li>
+        </h2>
+        <ol>
+            <li>Mysql</li>
+            <li>SqlServer</li>
+            <li>SqLite</li>
+            <li>Maria DB</li>
+            <li>Oracle</li>
+        </ol>
+
+    </ul>
+
+    <p><strong>Mysql</strong> é um <abbr title="Sistema de Geenciamento de Banco de Dados">SGBD</abbr> relacional que pertence a empresa Oracle, é um sistema Open Source bastante poderoso e completo para o desenvolvimeto de Base de Dados. </p>
+
+    <pre>
+        <code style="font-size: larger;">
+            <p>
+                <strong>
+    CREATE DATABASE sistema_venda;
+    USE sistema_venda;
+    CREATE TABLE vendedor(
+    
+        id_vendedor INT NOT NULL PRIMARY key AUTO_INCREMENT,
+        nome_vendedor VARCHAR(50) NOT NULL,
+        bi_vendedor VARCHAR(30) NOT NULL,
+        salario_vendedor DOUBLE NOT NULL,
+        
+        CONSTRAINT UQ_bi_vendedor UNIQUE (bi_vendedor)
+    );
+    
+    SELECT * FROM vendedor;
+                </strong>
+            </p>
+        </code>
+    </pre>
+
+    
+</body>
+</html>

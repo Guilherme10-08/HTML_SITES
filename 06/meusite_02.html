@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        div
+        {
+            background-color: darkgray;
+            width: 400px;
+            height: 300px;
+            border: 2px solid black;
+            display: inline-block;
+        }
+        p
+        {
+            text-align: justify;
+            text-indent: 15px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p:hover
+        {
+            color: rgb(40, 40, 121);
+            background-color: rgb(161, 106, 29);
+        }
+        div > video
+        {
+            display: none;
+        }
+        div:hover > video
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando Com Div's</h1>
+    <div>
+        <p>Música promocional do mais recente album acabado de ser lançado no dia 10/05/2024 album que conta com várias faixas diversificadas e bem caprixadas,confira no video a baixo &updownarrow;</p>
+
+        <video controls width="400px" height="195px">
+            <source src="videos/james-blunt-carry-you-home.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
